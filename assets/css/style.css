@@ -33,6 +33,7 @@ h2 {
 }
 
 .quienes-somos {
+    justify-content: center;
     padding: 0;
     gap: 3%;
 }
@@ -99,12 +100,16 @@ h2 {
 .footer-info {
     text-align: center;
     width: 40vw;
-    font-size: 2em;
+    font-size: 1.5em;
     gap: 1em;
 
 }
 
+#viajes-chile {
+    margin-bottom: 0;
+}
+
 .logos {
     justify-content: center;
-    gap: 1em;
+    padding: 0 1vw;
 }
