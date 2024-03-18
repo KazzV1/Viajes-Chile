@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.onest-light {
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.onest-normal {
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.contenido {
+    margin: 0 5%;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 10px;
+}
+
+.quienes-somos {
+    padding: 0;
+    gap: 3%;
+}
+
+.info {
+    padding: 1px;
+    width: 25rem;
+}
+
+.parrafo {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+
+.iconos {
+    background-color: #0DCAF0;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.destacados {
+    justify-content: center;
+    gap: 1vw;
+}
+
+.card {
+    text-align: center;
+    margin: 1%;
+}
+
+.card-body {
+    background-color: #0DCAF0;
+    color: white;
+
+}
+
+.paisaje {
+    aspect-ratio: 3 / 2;
+}
+
+.contacto {
+    padding-bottom: 30px;
+}
+
+.boton {
+    background-color: #0DCAF0;
+    color: white;
+}
+
+.footer {
+    background-color: #0DCAF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    gap: 1em;
+}
+
+.footer-info {
+    text-align: center;
+    width: 40vw;
+    font-size: 2em;
+    gap: 1em;
+
+}
+
+.logos {
+    justify-content: center;
+    gap: 1em;
+}
