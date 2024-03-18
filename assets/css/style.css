@@ -6,21 +6,29 @@ body {
     background-color: black;
     color: white;
     margin: 0;
-}
-
-.onest-light {
     font-family: "Onest", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
 }
 
-.onest-normal {
-    font-family: "Onest", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
 }
+
+.navbar-brand {
+    padding-left: 10%;
+}
+
+.navbar-nav {
+    padding-right: 10%;
+}
+
 .contenido {
     margin: 0 5%;
 
